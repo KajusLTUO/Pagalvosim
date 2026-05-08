@@ -86,18 +86,6 @@ body {
     border-right: 3px solid gray;
     margin-top: -20px;
 }
-.btn-contact {
-   background-color: #3f37c9;
-   color: white;
-   padding: 10px 20px;
-   text-decoration: none;
-   border-radius: 5px;
-   font-size: 25px;
-   font-weight: bold;
-   font-family:'Neue Machina', sans-serif;
-   width: 254px;
-   height: 59px;
-}
 .lang-switcher {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -400,4 +388,126 @@ main{
   line-height: 1.6;
   color: var(--text-gray);
   max-width: 320px;
+}
+.main-footer {
+  background-color: white;
+  padding: 80px 10%;
+  font-family: 'Neue Machina', sans-serif;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+ 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+ 
+.footer-col h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #333;
+}
+ 
+/* Column 1 Specifics */
+.footer-logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+ 
+.footer-email {
+  display: block;
+  font-size: 1.1rem;
+  color: #4a3aff;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+ 
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+ 
+.icon-box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #4a3aff;
+}
+ 
+/* Office & Services Text */
+.office-location {
+  margin-bottom: 25px;
+}
+ 
+.office-location .city {
+  color: #4a3aff;
+  margin-bottom: 5px;
+}
+ 
+.office-location .phone,
+.office-location .address,
+.footer-services li {
+  color: #888;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+ 
+.footer-services {
+  list-style: none;
+  padding: 0;
+  font-family: sans-serif;
+  color: #4a3aff;
+  line-height: 40px;
+}
+
+.footer-services li{
+   color: #4a3aff
+}
+ 
+/* Footer Bottom Bar */
+.footer-bottom {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #aaa;
+  
+}
+.city{
+   font-family: sans-serif;
+   font-size: 1.1rem;
+}
+.footer-col1{
+   padding-left: 300px;
+   
+}
+.footer-col2{
+   padding-left: 150px;
+}
+.btn-contact {
+   background-color: #3f37c9;
+   color: white;
+   padding: 15px 40px;
+   text-decoration: none;
+   border-radius: 10px;
+   font-size: 20px;
+   font-family: 'Neue Machina';
+   line-height: 85px;
+   font-weight: 100;
+}
+.footer-btn{
+   font-weight: 100;
+}
+.footer-bottom p{
+   color: #929292;
+   font-size: 15px;
 }
