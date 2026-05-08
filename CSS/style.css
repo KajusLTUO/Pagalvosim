@@ -392,7 +392,7 @@ main{
  
 .divider {
   border: none;
-  border-top: 1px solid var(--accent-color);
+  border-top: 1px solid black;
   margin-bottom: 30px;
 }
  
