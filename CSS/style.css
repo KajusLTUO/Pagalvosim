@@ -169,7 +169,7 @@ body {
 }
  
 .goals-section {
-    padding: 70px 20%;
+    padding: 80px 10%;
     font-size: 2.5rem;
     font-weight: 400;
     letter-spacing: -0.5px;
@@ -243,4 +243,86 @@ p {
 }
 main{
    margin-top: 150px;
+}
+.work-section {
+  padding: 80px 10%;
+  background-color: #f8f8f8;
+  font-family: 'Neue Machina', sans-serif;
+}
+ 
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 50px;
+}
+.work-card {
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 30px;
+  min-height: 100px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.empty-space {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #333;
+}
+.purple-card {
+  background-color: #766dff;
+  border: none;
+  color: white;
+}
+ 
+.purple-card h3, .purple-card p {
+  color: white;
+}
+ 
+.work-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+ 
+.work-card p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.learn-more-circle {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+ 
+.learn-more-circle span {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.work-card span{
+    color: #c7c7c7;
+}
+.work-card.purple-card{
+    background-color: #766dff;
+    border: none;
+    color: white;
+    margin: 20px;
+    margin-bottom: -40px;
+    padding-bottom: 60px;
+    box-shadow: 0 10px 30px rgba(118, 109, 255, 0.3);
+    z-index: 2;
 }
