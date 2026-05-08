@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IT Support Group</title>
     <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Instaliuojam emailjs -->
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="JS/email.js" defer></script>
+    <script src="JS/validation.js" defer></script>
   </head>
   <body>
     <main>
@@ -54,6 +61,30 @@
           <img src="img/Block_6.png" alt="Sketching UI" />
         </div>
       </div>
+    </section>
+
+    <section class="submit-form">
+      <form id="form" action="#">
+            <label for="fullName">Enter your Full Name</label>
+            <input type="text" name="fullName" id="fullName">
+
+            <label for="userEmail">Enter your Email</label>
+            <input type="text" name="userEmail" id="userEmail">
+
+            <label for="userPhone">Enter your Phone Number</label>
+            <input type="tel" name="userPhone" id="userPhone">
+
+            <label for="projectDescription">Describe your Project</label>
+            <input type="text" name="projectDescription" id="projectDescription">
+
+            <label for="goal">Upload file (max file size is 30MB) </label> <!--FAILU SIUST NEIMANOMA, NEBENT 11e per menesi moket emailjs-->
+            <input type="file" name="file" id="file">
+
+            <label for="submit">Submit</label>
+            <input type="submit" name="submit" id="submit">
+
+
+        </form>
     </section>
     </main>
   </body>
