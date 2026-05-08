@@ -5,7 +5,6 @@ const fullName = document.querySelector("#fullName");
 const userEmail = document.querySelector("#userEmail");
 const userPhone = document.querySelector("#userPhone");
 const projectDescription = document.querySelector("#projectDescription");
-const file = document.querySelector("#file")
 
 // formos siuntimas/validacija
 form.addEventListener("submit", (e) => {
@@ -30,13 +29,12 @@ form.addEventListener("submit", (e) => {
 
   if (userPhone.value === "") {
     alert("Please enter your phone number");
-    return;
+    return; 
   }
 
   data.fullName = fullName.value.trim();
   data.email = userEmail.value.trim();
   data.phoneNumber = userPhone.value.trim();
   data.description = projectDescription.value.trim();
-  data.file = file.value;
   sendEmail()
 });

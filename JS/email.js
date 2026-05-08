@@ -12,11 +12,14 @@ const data = {};
 function sendEmail() {
   emailjs.send(serviceID, templateID, data).then(
     (response) =>
+    {
       console.log(
         "El. laiškas buvo sekmingai išsiustas",
         response.status,
         response.text,
-      ),
+      );
+      alert("El. laiškas buvo sekmingai išsiustas")
+    },
     (error) => {
       console.log("KLAIDA!!!!!", error);
       alert("KLAIDA");
