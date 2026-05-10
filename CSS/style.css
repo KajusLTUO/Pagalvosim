@@ -271,3 +271,13 @@ ul li div.scroll-card {
 ul::-webkit-scrollbar {
   display: none;
 }
+
+#yearText {
+  transition: opacity 0.3s ease;
+}
+
+#years button.active {
+  color: white;
+  transform: scale(1.2);
+  transition: 0.3s;
+}

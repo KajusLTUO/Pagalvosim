@@ -12,6 +12,7 @@
     </script>
     <script src="JS/email.js" defer></script>
     <script src="JS/validation.js" defer></script>
+    <script src="JS/timeline.js" defer></script>
   </head>
   <body>
     <main>
@@ -63,24 +64,29 @@
       </div>
     </section>
 
-    <section class="scrollable-dates"> <!--kol kas negraziai atrodo-->
-      <ul>
-        <li>
-          <div class="scroll-card">...</div>
-        </li>
-        <li>
-          <div class="scroll-card">...</div>
-        </li>
-        <li>
-          <div class="scroll-card">...</div>
-        </li>
-        <li>
-          <div class="scroll-card">...</div>
-        </li>
-        <li>
-          <div class="scroll-card">...</div>
-        </li>
-      </ul>
+    <section class="timeline-section">
+      <h2>IT Support Group<br>through the years</h2>
+      <p>We started our way with the idea of creating innovative products, 
+        and we have been following this trend since 2013
+        and continue to build technological solutions for our customers.</p>
+      <div class="timeline-box">
+        <div class="years" id="years">
+          <button data-year="2013">2013</button>
+          <button data-year="2015">2015</button>
+          <button data-year="2018" class="active">2018</button>
+          <button data-year="2020">2020</button>
+          <button data-year="2022">2022</button>
+        </div>
+
+        <div class="timeline-line"></div>
+
+        <ul id="yearText">
+          <li>We hire our 10th developers</li>
+          <li>Our active client count officially reaches 20</li>
+          <li>We initiate our first blockchain project</li>
+          <li>We are recognized as a top engineering company</li>
+        </ul>
+      </div>
     </section>
 
      <section class="submit-form">
@@ -102,13 +108,12 @@
           <input type="tel" name="userPhone" id="userPhone">
 
           <label for="projectDescription">Describe your Project</label>
-          <input type="text" name="projectDescription" id="projectDescription">
+          <textarea id="projectDescription"></textarea>
 
           <label for="goal">Upload file (max file size is 30MB) </label> <!--FAILU SIUST NEIMANOMA, NEBENT 11e per menesi moket emailjs-->
           <input type="file" name="file" id="file">
 
-          <label for="submit">Submit</label>
-          <input type="submit" name="submit" id="submit">
+          <button type="submit">Submit</button>
         </form>
       </div>
       
