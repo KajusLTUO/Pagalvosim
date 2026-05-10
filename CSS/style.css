@@ -548,3 +548,8 @@ ul::-webkit-scrollbar {
    color: #929292;
    font-size: 15px;
 }
+
+.tech-dot {
+   width: 40px;
+   height: 30px;
+}
