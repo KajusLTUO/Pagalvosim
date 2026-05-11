@@ -603,6 +603,7 @@ ul::-webkit-scrollbar {
    width: 20px;
    height: 20px;  
    border-radius: 20px;
+   background-color: rgb(151, 151, 151);
 }
 
 .tech-dot.active {
@@ -737,6 +738,30 @@ hr {
   margin-top: 20px;
 }
 
+.tech-info {
+  width: 80vw;
+  height: 5vh;
+  display: flex;
+}
+
+.technology {
+  color: gray;
+  transform: scale(0.8);
+}
+
+.technology img {
+  display: none;
+}
+
+.technology.active img {
+  display: block;
+  width: 100px;
+}
+
+.technology.active p {
+  color: black;
+  transform: scale(1.2);
+}
 /* WHY CHOOSE US CSS */
 
 /* SECTIONAS */
