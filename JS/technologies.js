@@ -49,7 +49,7 @@ const techIcon = document.querySelector("#techIcon");
 techDots.forEach(dot => {
   dot.addEventListener("click", () => {
     techDots.forEach(item => item.classList.remove("active"));
-    
+    dot.classList.add("active");
     const selectedTech = dot.dataset.tech;
     const tech = technologies[selectedTech];
     // kokia yra dot'o "tech" reiksme ieskom dicte ir suteikiam jam description

@@ -10,6 +10,7 @@ emailjs.init({
 const data = {};
 
 function sendEmail() {
+  
   emailjs.send(serviceID, templateID, data).then(
     (response) =>
     {
