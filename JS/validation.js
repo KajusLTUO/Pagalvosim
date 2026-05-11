@@ -9,6 +9,7 @@ const projectDescription = document.querySelector("#projectDescription");
 // formos siuntimas/validacija
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  
 
   if (fullName.value.trim() === "") {
     // trim pasalina tarpus gale ir pradzioj
@@ -36,5 +37,6 @@ form.addEventListener("submit", (e) => {
   data.email = userEmail.value.trim();
   data.phoneNumber = userPhone.value.trim();
   data.description = projectDescription.value.trim();
+  
   sendEmail()
 });

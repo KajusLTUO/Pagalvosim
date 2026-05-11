@@ -14,6 +14,7 @@
     <script src="JS/validation.js" defer></script>
     <script src="JS/timeline.js" defer></script>
     <script src="JS/technologies.js" defer></script>
+    <script src="JS/how_we_work.js" defer></script>
   </head>
   <body>
     <main>
@@ -90,72 +91,43 @@
       </div>
     </section>
 
-     <section class="submit-form">
-      <div class="upper-section" style="border: 1px solid black"><!--SITA STYLE GALIMA REMOVE!!! pridejau tiesiog kad geriau matytusi-->
-        <h2>Get in touch with us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, qui vitae. Illum, maiores! Beatae ipsum distinctio quo, cupiditate sed aut illo inventore nulla sint, consectetur cum laborum quia reprehenderit eveniet! Ut amet molestiae maxime optio, quo unde dolore soluta, ex beatae minus aut necessitatibus eaque dicta voluptatem corrupti saepe ipsum? Quae esse dolorum, eos ea sequi iste sunt cupiditate quod a, error id, quisquam deserunt deleniti! Sequi consequatur nam id?</p>
-        <a download="test.txt" href="test.txt">DOWNLOAD THE BRIEF (ne visada veikia nzn kodel, priklauso nuo brauzerio?)</a>
-      </div>
-
-      <div class="lower-section" style="border: 2px solid black"> <!--SITA STYLE GALIMA REMOVE!!! pridejau tiesiog kad geriau matytusi-->
-        <form id="form" action="#">
-          <label for="fullName">Enter your Full Name</label>
-          <input type="text" name="fullName" id="fullName">
-
-          <label for="userEmail">Enter your Email</label>
-          <input type="text" name="userEmail" id="userEmail">
-
-          <label for="userPhone">Enter your Phone Number</label>
-          <input type="tel" name="userPhone" id="userPhone">
-
-          <label for="projectDescription">Describe your Project</label>
-          <textarea id="projectDescription"></textarea>
-
-          <label for="goal">Upload file (max file size is 30MB) </label> <!--FAILU SIUST NEIMANOMA, NEBENT 11e per menesi moket emailjs-->
-          <input type="file" name="file" id="file">
-
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-      
-    </section>
     <section class="work-section">
-  <h2 class="section-title">How we work?</h2>
- 
-  <div class="work-grid">
-    <div class="empty-space">
-        <p>Requirements analysis and statement of work</p>
-    </div>
- 
-    <div class="work-card">
-      <h3>Design (if required)</h3>
-      <p>Some words about this step in our work.</p>
-    </div>
- 
-    <div class="work-card">
-      <h3>Development, show demo version</h3>
-      <p>Some words about this step in our work.</p>
-    </div>
- 
-    <div class="work-card">
-      <h3>Testing, completion</h3>
-      <p>Some words about this step in our work.</p>
-    </div>
- 
-    <div class="work-card">
-      <h3>Product launch</h3>
-      <p>Some words about this step in our work.</p>
-    </div>
- 
-    <div class="work-card purple-card">
-      <h3>Continued technical support</h3>
-      <span>Some words about this step in our work. <br>Some words about this step in our work. <br>Some words about this step in our work.</span>
-    </div>
-  </div>
- 
-  <div class="learn-more-circle">
-    <span>LEARN<br>MORE</span>
-  </div>
+      <h2 class="section-title">How we work?</h2>
+    
+      <div class="work-grid">
+        <div class="empty-space">
+            <p>Requirements analysis and statement of work</p>
+        </div>
+    
+        <div class="work-card upper-work" id="work-card">
+          <h3>Design (if required)</h3>
+          <span>Some words about this step in our work.</span>
+        </div>
+    
+        <div class="work-card upper-work" id="work-card">
+          <h3>Development, show demo version</h3>
+          <span>Some words about this step in our work.</span>
+        </div>
+    
+        <div class="work-card" id="work-card">
+          <h3>Testing, completion</h3>
+          <span>Some words about this step in our work.</span>
+        </div>
+    
+        <div class="work-card" id="work-card">
+          <h3>Product launch</h3>
+          <span>Some words about this step in our work.</span>
+        </div>
+    
+        <div class="work-card purple-card" id="work-card">
+          <h3>Continued technical support</h3>
+          <span>Some words about this step in our work. <br>Some words about this step in our work. <br>Some words about this step in our work.</span>
+        </div>
+      </div>
+    
+      <div class="learn-more-circle">
+        <span>LEARN<br>MORE</span>
+      </div>
 </section>
 
 <section class="technologies-section">
@@ -171,7 +143,8 @@
   <div class="tech-slider">
     <button class="tech-dot active" data-tech="js"></button>
     <hr>
-    <button class="tech-dot" data-tech="html"></button>
+    <button class="tech-dot" data-tech="html">
+    </button>
     <hr>
     <button class="tech-dot" data-tech="css"></button>
     <hr>
@@ -251,19 +224,19 @@
       </div>
     </div>
 
-    <form class="contact-form">
+    <form class="contact-form" id="form">
       <div class="form-row">
         <div class="form-group">
-          <input type="text" placeholder="Enter your Full Name" required>
+          <input type="text" id="fullName" placeholder="Enter your Full Name" required>
         </div>
         <div class="form-group">
-          <input type="text" placeholder="Describe your project">
+          <input type="text" id="projectDescription" placeholder="Describe your project">
         </div>
       </div>
 
       <div class="form-row">
         <div class="form-group">
-          <input type="email" placeholder="Enter your Email" required>
+          <input type="email" id="userEmail" placeholder="Enter your Email" required>
         </div>
         <div class="form-group upload-group">
           <input type="text" placeholder="Upload file (max file size is 30 MB)" readonly>
@@ -273,7 +246,7 @@
 
       <div class="form-row">
         <div class="form-group">
-          <input type="tel" placeholder="Enter your Phone Number">
+          <input type="tel" id="userPhone" placeholder="Enter your Phone Number">
         </div>
         <div class="form-group">
            </div>

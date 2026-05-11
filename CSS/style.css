@@ -308,6 +308,7 @@ ul::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  cursor: pointer;
 }
 .empty-space {
   padding: 30px;
@@ -324,11 +325,7 @@ ul::-webkit-scrollbar {
   border: none;
   color: white;
 }
- 
-.purple-card h3, .purple-card p {
-  color: white;
-}
- 
+
 .work-card h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
@@ -361,18 +358,35 @@ ul::-webkit-scrollbar {
 }
  
 .work-card span{
-    color: #c7c7c7;
+    color: #d0d0d0;
 }
+
+.purple-upper {
+  background-color: #766dff;
+  border: none;
+  color: white;
+}
+
 .work-card.purple-card{
     background-color: #766dff;
     border: none;
-    color: white;
     margin: 20px;
     margin-bottom: -40px;
     padding-bottom: 60px;
     box-shadow: 0 10px 30px rgba(118, 109, 255, 0.3);
     z-index: 2;
 }
+
+.work-card.purple-upper {
+    background-color: #766dff;
+    border: none;
+    margin: 20px;
+    margin-top: -40px;
+    padding-bottom: 60px;
+    box-shadow: 0 10px 30px rgba(118, 109, 255, 0.3);
+    z-index: 2;
+}
+
 :root {
   --bg-color: #f9f9f9;
   --text-dark: #333333;
@@ -552,6 +566,7 @@ ul::-webkit-scrollbar {
    line-height: 85px;
    font-weight: 100;
 }
+
 .footer-btn{
    font-weight: 100;
 }
@@ -564,6 +579,10 @@ ul::-webkit-scrollbar {
    width: 20px;
    height: 20px;  
    border-radius: 20px;
+}
+
+.tech-dot.active {
+  background-color: #505deb;
 }
 
 .tech-slider {
