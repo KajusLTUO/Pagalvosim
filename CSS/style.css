@@ -745,7 +745,7 @@ hr {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  padding: 120px 190px 140px;
+  padding: 80px 10%;
 }
 
 /* VIRŠUS */
@@ -829,11 +829,10 @@ hr {
 
 /* DEŠINĖ DEŽUTĖ */
 .tabbox {
-  width: 1116px;
-  height: 459px;
+  width: 70%;
   padding: 40px;
   border: 1px solid rgb(133, 133, 133);
-  border-radius: 32px;
+  border-radius: 80px;
   flex-shrink: 0;
 }
 
@@ -842,14 +841,16 @@ hr {
   max-height: 359px;
   font-size: 36px;
   color: #6664dc;
+  padding: 20px;
 }
 
 .tabbox p {
   max-width: 1016px;
   max-height: 359px;
-  font-size: 2.63vh;
+  font-size: 2vh;
   line-height: 1.4;
   color: rgba(47, 53, 63, 0.5);
   font-family: sans-serif;
   margin-top: 3.0rem;
+  padding: 20px;
 }
