@@ -736,3 +736,117 @@ hr {
   gap: 10px;
   margin-top: 20px;
 }
+
+/* WHY CHOOSE US CSS */
+
+/* SECTIONAS */
+
+.choosemain {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 120px 190px 140px;
+}
+
+/* VIRŠUS */
+
+.top {
+  margin-bottom: 72px;
+}
+
+.top h2 {
+  font-size: 48px;
+  max-width: 458px;
+  height: 58px;
+  margin-bottom: 70px;
+}
+
+.top p {
+  max-width: 726px;
+  height: 108px;
+  font-size: 18px;
+  color: rgba(47, 53, 63, 0.5);
+}
+
+/* KONTENTAS */
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 170px;
+}
+
+/* KAIRĖ DĖŽUTĖ */
+.choosemenu {
+  width: 305px;
+  height: 502.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  position: relative;
+  padding-left: 42px;
+}
+
+/* KAIRĖS DĖŽUTĖS LINIJA */
+.choosemenu::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: rgba(47, 53, 63, 0.14);
+}
+
+/* KAIRĖS DĖŽUTĖS AKTYVI LINIJA */
+.choosemenu::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 24px;
+  background: #6664dc;
+  border-radius: 2px;
+}
+
+/* MYGTUKAI KAIRĖJE */
+
+.btnmain {
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 36px;
+  color: rgba(47, 53, 63, 0.2);
+  transition: color 0.3s ease;
+}
+
+.btnmain:hover,
+.btnmain.active {
+  color: #6664dc;
+}
+
+/* DEŠINĖ DEŽUTĖ */
+.tabbox {
+  width: 1116px;
+  height: 459px;
+  padding: 40px;
+  border: 1px solid rgba(47, 53, 63, 0.14);
+  border-radius: 32px;
+  flex-shrink: 0;
+}
+
+.tabbox h3 {
+  max-width: 1016px;
+  max-height: 359px;
+  font-size: 36px;
+  color: #6664dc;
+}
+
+.tabbox p {
+  max-width: 1016px;
+  max-height: 359px;
+  font-size: 24px;
+  line-height: 1.4;
+  color: rgba(47, 53, 63, 0.5);
+}
