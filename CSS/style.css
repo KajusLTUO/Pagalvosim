@@ -196,7 +196,7 @@ body {
     border: 1px solid #949494;
     background: #fff;
     margin: -0.5px;
-    border-radius: 40px;
+    border-radius: 60px;
     z-index: 1;
 }
  
@@ -226,13 +226,13 @@ h3 {
 p {
     color: #666;
     line-height: 1.5;
-    font-size: 25px;
+    font-size: 26px;
 }
  
 .img-2 {
   grid-area: 2 / 3 / 4 / 1;
   width: 75%;
-  border-radius: 0px;
+  border-radius: 60px;
 
 }
 
@@ -242,7 +242,7 @@ p {
 .card-3{
   grid-area: 2 / 2 / 4 / 3;
   width: 150%;
-  margin-left: 49.8%;
+  margin-left: 49.7%;
   border-radius: 60px;
    
 }
@@ -418,6 +418,8 @@ ul::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 48%;
+
 }
  
 .icon-wrapper {
@@ -443,20 +445,23 @@ ul::-webkit-scrollbar {
   border: none;
   border-top: 1px solid black;
   margin-bottom: 30px;
+  width: 100%;
 }
  
 .card-text {
-  font-size: 16px;
+  font-size: 24px;
   line-height: 1.6;
   color: var(--text-gray);
-  max-width: 320px;
+  max-width: 506px;
 }
 .main-footer {
   background-color: white;
-  padding: 80px 10%;
+  padding: 80px 4%;
   font-family: 'Neue Machina', sans-serif;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
+  width: 80%;
+  margin: auto;
 }
  
 .footer-container {
@@ -529,6 +534,7 @@ ul::-webkit-scrollbar {
   font-family: sans-serif;
   color: #4a3aff;
   line-height: 40px;
+  display: block;
 }
 
 .footer-services li{
@@ -539,21 +545,22 @@ ul::-webkit-scrollbar {
 .footer-bottom {
   padding-top: 30px;
   display: flex;
-  justify-content: space-between;
   font-size: 0.8rem;
   color: #aaa;
   margin-bottom: 50px;
+  gap: 487px;
+  justify-content: center;
 }
 .city{
    font-family: sans-serif;
    font-size: 1.1rem;
 }
 .footer-col1{
-   padding-left: 300px;
+   padding-left: 410px;
    
 }
 .footer-col2{
-   padding-left: 150px;
+   padding-left: 100px;
 }
 .btn-contact {
    background-color: #3f37c9;
@@ -565,6 +572,23 @@ ul::-webkit-scrollbar {
    font-family: 'Neue Machina';
    line-height: 85px;
    font-weight: 100;
+}
+
+.technologies-section {
+  padding: 80px 10%;
+}
+.used_technologies {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 100px;
+}
+
+.used_technologies_p {
+  width: 43%;
+  margin-left: 45%;
+  margin-bottom: 10%;
+  font-family: sans-serif;
+   color: rgb(172, 172, 172);
 }
 
 .footer-btn{
@@ -587,10 +611,11 @@ ul::-webkit-scrollbar {
 
 .tech-slider {
   display: flex;
+
 }
 
 hr {
-  width: 100px;
+  width: 180px;
   height: 2px;
   margin-top: 8px;
 }
