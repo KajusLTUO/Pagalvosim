@@ -238,6 +238,43 @@ p {
 main{
    margin-top: 150px;
 }
+
+ul {
+   align-items: flex-start;
+   display: flex;
+   flex-wrap: nowrap;
+   list-style: none;
+   margin: 1rem 0;
+   overflow-x: scroll;
+   scrollbar-width: none;     
+   padding: 0 0 0 1rem;
+   scroll-padding-left: 1rem; /* Same as gutter */
+   scroll-snap-type: x mandatory;
+   scroll-snap-align: center;
+   }
+ul li {
+   padding: 0 1rem 0 0;
+}
+ul li div.scroll-card {
+   background-color: #ff7979;
+   border-radius: 9px;
+   height: 7vw;
+   width: 25vw;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+#yearText {
+  transition: opacity 0.3s ease;
+}
+
+#years button.active {
+  color: white;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
 .work-section {
   padding: 80px 10%;
   background-color: white;
@@ -511,9 +548,25 @@ main{
    color: #929292;
    font-size: 15px;
 }
+
+.tech-dot {
+   width: 20px;
+   height: 20px;  
+   border-radius: 20px;
+}
+
+.tech-slider {
+  display: flex;
+}
+
+hr {
+  width: 100px;
+  height: 2px;
+  margin-top: 8px;
+}
 .contact-section {
   padding: 80px 10%;
-  background-color: #f8f8f8;
+  background-color: white;
 }
 
 .contact-container {

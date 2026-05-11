@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IT Support Group</title>
     <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Instaliuojam emailjs -->
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="JS/email.js" defer></script>
+    <script src="JS/validation.js" defer></script>
+    <script src="JS/timeline.js" defer></script>
+    <script src="JS/technologies.js" defer></script>
   </head>
   <body>
     <main>
@@ -55,7 +64,62 @@
         </div>
       </div>
     </section>
-            <section class="work-section">
+
+    <section class="timeline-section">
+      <h2>IT Support Group<br>through the years</h2>
+      <p>We started our way with the idea of creating innovative products, 
+        and we have been following this trend since 2013
+        and continue to build technological solutions for our customers.</p>
+      <div class="timeline-box">
+        <div class="years" id="years">
+          <button data-year="2013">2013</button>
+          <button data-year="2015">2015</button>
+          <button data-year="2018" class="active">2018</button>
+          <button data-year="2020">2020</button>
+          <button data-year="2022">2022</button>
+        </div>
+
+        <div class="timeline-line"></div>
+
+        <ul id="yearText">
+          <li>We hire our 10th developers</li>
+          <li>Our active client count officially reaches 20</li>
+          <li>We initiate our first blockchain project</li>
+          <li>We are recognized as a top engineering company</li>
+        </ul>
+      </div>
+    </section>
+
+     <section class="submit-form">
+      <div class="upper-section" style="border: 1px solid black"><!--SITA STYLE GALIMA REMOVE!!! pridejau tiesiog kad geriau matytusi-->
+        <h2>Get in touch with us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, qui vitae. Illum, maiores! Beatae ipsum distinctio quo, cupiditate sed aut illo inventore nulla sint, consectetur cum laborum quia reprehenderit eveniet! Ut amet molestiae maxime optio, quo unde dolore soluta, ex beatae minus aut necessitatibus eaque dicta voluptatem corrupti saepe ipsum? Quae esse dolorum, eos ea sequi iste sunt cupiditate quod a, error id, quisquam deserunt deleniti! Sequi consequatur nam id?</p>
+        <a download="test.txt" href="test.txt">DOWNLOAD THE BRIEF (ne visada veikia nzn kodel, priklauso nuo brauzerio?)</a>
+      </div>
+
+      <div class="lower-section" style="border: 2px solid black"> <!--SITA STYLE GALIMA REMOVE!!! pridejau tiesiog kad geriau matytusi-->
+        <form id="form" action="#">
+          <label for="fullName">Enter your Full Name</label>
+          <input type="text" name="fullName" id="fullName">
+
+          <label for="userEmail">Enter your Email</label>
+          <input type="text" name="userEmail" id="userEmail">
+
+          <label for="userPhone">Enter your Phone Number</label>
+          <input type="tel" name="userPhone" id="userPhone">
+
+          <label for="projectDescription">Describe your Project</label>
+          <textarea id="projectDescription"></textarea>
+
+          <label for="goal">Upload file (max file size is 30MB) </label> <!--FAILU SIUST NEIMANOMA, NEBENT 11e per menesi moket emailjs-->
+          <input type="file" name="file" id="file">
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      
+    </section>
+    <section class="work-section">
   <h2 class="section-title">How we work?</h2>
  
   <div class="work-grid">
@@ -93,6 +157,42 @@
     <span>LEARN<br>MORE</span>
   </div>
 </section>
+
+<section class="technologies-section">
+  <div class="technologies-header">
+    <h2>Used technologies</h2>
+    <p>
+      Fill the gaps in your competencies by setting up a remote IT team.
+      We will find the best experts for you and arrange everything around it.
+      You will get a perfect match both in skills and cultural fit.
+    </p>
+  </div>
+
+  <div class="tech-slider">
+    <button class="tech-dot active" data-tech="js"></button>
+    <hr>
+    <button class="tech-dot" data-tech="html"></button>
+    <hr>
+    <button class="tech-dot" data-tech="css"></button>
+    <hr>
+    <button class="tech-dot" data-tech="react"></button>
+    <hr>
+    <button class="tech-dot" data-tech="node"></button>
+    <hr>
+    <button class="tech-dot" data-tech="figma"></button>
+    <hr>
+    <button class="tech-dot" data-tech="git"></button>
+    <hr>
+    <button class="tech-dot" data-tech="emailjs"></button>
+  </div>
+
+  <div class="tech-info">
+    <h3 id="techTitle">JavaScript</h3>
+    <p id="techDescription">Used for interactive website functionality.</p>
+    <div id="techIcon">JS</div>
+  </div>
+</section>
+
 <section class="industries-section">
     <div class="industries">
       <h2 class="section-title">Industries</h2>
