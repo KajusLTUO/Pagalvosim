@@ -600,10 +600,12 @@ ul::-webkit-scrollbar {
 }
 
 .tech-dot {
-   width: 20px;
-   height: 20px;  
+   width: 15px;
+   height: 15px;  
    border-radius: 20px;
    background-color: rgb(151, 151, 151);
+   border: none;
+   margin-top: 2px;
 }
 
 .tech-dot.active {
@@ -612,14 +614,53 @@ ul::-webkit-scrollbar {
 
 .tech-slider {
   display: flex;
+  padding-bottom: 30px;
 
 }
 
 hr {
-  width: 10%;
+  width: 110%;
   height: 2px;
+  background-color: gainsboro;
+  border: none;
   margin-top: 8px;
+  margin-left: 25px;
 }
+
+.dot_1 {
+  position: absolute;
+  left: 190px;
+}
+.dot_2 {
+  position: absolute;
+  left: 345px;
+}
+.dot_3 {
+  position: absolute;
+  left: 525px;
+}
+.dot_4 {
+  position: absolute;
+  left: 692px;
+}
+.dot_5 {
+  position: absolute;
+  left: 865px;
+}
+.dot_6 {
+  position: absolute;
+  left: 1030px;
+}
+.dot_7 {
+  position: absolute;
+  left: 1200px;
+}
+.dot_8 {
+  position: absolute;
+  left: 1375px;
+}
+
+
 .contact-section {
   padding: 80px 10%;
   background-color: white;
@@ -756,6 +797,10 @@ hr {
 .technology.active img {
   display: block;
   width: 100px;
+}
+
+#techDescription {
+  font-size: 18px;
 }
 
 .technology.active p {
