@@ -381,6 +381,8 @@ ul::-webkit-scrollbar {
   color: #4a3aff;
   text-decoration: underline;
   margin-bottom: 30px;
+  padding-top: 55px;
+  padding-bottom: 20px;
 }
  
 .social-icons {
@@ -439,19 +441,15 @@ ul::-webkit-scrollbar {
   font-size: 0.8rem;
   color: #aaa;
   margin-bottom: 50px;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
   gap: 350px;
   justify-content: center;
 }
 .city{
    font-family: sans-serif;
    font-size: 1.1rem;
-}
-.footer-col1{
-   padding-left: 410px;
-   
-}
-.footer-col2{
-   padding-left: 100px;
 }
 .btn-contact {
    background-color: #3f37c9;
