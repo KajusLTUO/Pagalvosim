@@ -9,13 +9,14 @@ body {
    background-color: white;
    width: 100%;
    margin: 0 auto;
+   padding: 0;
    overflow-x: hidden;
 }
 
 /*Section Goals */
 
 .goals-section {
-   padding: 80px 50px 40px;
+   padding: 60px 50px 40px;
    background-color: #f8f8f8;
 }
 
@@ -31,14 +32,6 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-
-.section-title {
-   font-size: 42px;
-   color: #333;
-   font-weight: normal;
-   font-family: serif;
-}
- 
  
 :root {
     --brand-purple: #4a3aff;
@@ -47,20 +40,17 @@ body {
 }
  
 .goals-section {
-    padding: 80px 10%;
+    padding: 2rem 29.4rem 10rem 29.4rem;
     font-size: 2.5rem;
     font-weight: 400;
-    letter-spacing: -0.5px;
     font-family:'Neue Machina', sans-serif;
     background-color: #fff;
 }
  
 .section-title {
     font-family:'Neue Machina', sans-serif;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
+    font-size: 3.75rem;
     font-weight: 400;
-    letter-spacing: -0.5px;
     color: #1a1a1a;
 }
  
@@ -77,16 +67,14 @@ body {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    min-height: 250px;
+    min-height: 500px;
     border: 1px solid #e0e0e0;
-    margin: -0.5px;
     justify-content: space-between;
 }
  
 .text-card {
     border: 1px solid #949494;
     background: #fff;
-    margin: -0.5px;
     border-radius: 60px;
     z-index: 1;
 }
