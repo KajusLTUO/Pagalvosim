@@ -5,10 +5,12 @@
 body {
    background-color: white;
    width: 100%;
-   max-width: 1920px;
    margin: 0 auto;
    overflow-x: hidden;
 }
+
+
+
 /*Section Goals */
 .goals-section {
    padding: 80px 50px 40px;
@@ -35,108 +37,8 @@ body {
 body {
    background-color: white;
 }
-.hero-section {
-   position: relative;
-   height: 100vh;
-   min-height: 600px;
-   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-               url('/IMG/Img\ \(2\).png') no-repeat center center/cover;
-   color: white;
-   padding: 20px 50px;
-   padding-top: 0px;
-   display: flex;
-   flex-direction: column;
-}
-.navbar {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-   
-}
-.nav-links {
-   display: flex;
-   list-style: none;
-   gap: 40px;
-   margin-left: 800px;
- 
-   
-}
-.nav-links a {
-   text-decoration: none;
-   color: white;
-   text-transform: lowercase;
-   font-size: 25px;
-   opacity: 0.8;
-   font-family:'Neue Machina', sans-serif;
-}
-.nav-links li {
-    margin-left: 100px;
- 
-}
-.nav-actions {
-   display: flex;
-   align-items: center;
-   gap: 30px;
-   
-}
-.vertical-line {
-    width: 1px;
-    height: 140px;
-    border-right: 3px solid gray;
-    margin-top: -20px;
-}
-.lang-switcher {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-right: 150px;margin-left: 50px;
-}
-.hero-content {
-   flex-grow: 1;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   padding-left: 100px;
-}
-.hero-content h1 {
-   font-size: 48px;
-   line-height: 1.2;
-   margin-bottom: 50px;
-   max-width: 800px;
-   font-family: Arial, Helvetica, sans-serif;
-   
-}
- 
-.subject {
-    background-color: #3f37c9;
-    height: 70px;
-}
-.subject-text {
-    font-family:'Neue Machina', sans-serif;
-    margin-top: -80px;
-}
-.estimate-circle {
-   margin-top: 40px;
-   width: 280px;
-   height: 280px;
-   border: 1px solid rgba(255, 255, 255, 0.5);
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   cursor: pointer;
-   transition: all 0.3s ease;
-}
-.estimate-circle:hover {
-   background-color: rgba(255, 255, 255, 0.1);
-   transform: scale(1.05);
-}
-.estimate-circle p {
-   font-size: 25px;
-   letter-spacing: 1px;
-   font-family: Arial, Helvetica, sans-serif;
-}
+
+
 .goals-section {
    padding: 80px 50px 40px;
    background-color: #f8f8f8;
@@ -548,7 +450,7 @@ ul::-webkit-scrollbar {
   font-size: 0.8rem;
   color: #aaa;
   margin-bottom: 50px;
-  gap: 487px;
+  gap: 350px;
   justify-content: center;
 }
 .city{
@@ -600,10 +502,12 @@ ul::-webkit-scrollbar {
 }
 
 .tech-dot {
-   width: 20px;
-   height: 20px;  
+   width: 15px;
+   height: 15px;  
    border-radius: 20px;
    background-color: rgb(151, 151, 151);
+   border: none;
+   margin-top: 2px;
 }
 
 .tech-dot.active {
@@ -612,14 +516,53 @@ ul::-webkit-scrollbar {
 
 .tech-slider {
   display: flex;
+  padding-bottom: 30px;
 
 }
 
 hr {
-  width: 180px;
+  width: 110%;
   height: 2px;
+  background-color: gainsboro;
+  border: none;
   margin-top: 8px;
+  margin-left: 25px;
 }
+
+.dot_1 {
+  position: absolute;
+  left: 170px;
+}
+.dot_2 {
+  position: absolute;
+  left: 310px;
+}
+.dot_3 {
+  position: absolute;
+  left: 470px;
+}
+.dot_4 {
+  position: absolute;
+  left: 620px;
+}
+.dot_5 {
+  position: absolute;
+  left: 775px;
+}
+.dot_6 {
+  position: absolute;
+  left: 920px;
+}
+.dot_7 {
+  position: absolute;
+  left: 1075px;
+}
+.dot_8 {
+  position: absolute;
+  left: 1235px;
+}
+
+
 .contact-section {
   padding: 80px 10%;
   background-color: white;
@@ -758,6 +701,10 @@ hr {
   width: 100px;
 }
 
+#techDescription {
+  font-size: 18px;
+}
+
 .technology.active p {
   color: black;
   transform: scale(1.2);
@@ -770,7 +717,7 @@ hr {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  padding: 120px 190px 140px;
+  padding: 80px 10%;
 }
 
 /* VIRŠUS */
@@ -854,11 +801,10 @@ hr {
 
 /* DEŠINĖ DEŽUTĖ */
 .tabbox {
-  width: 1116px;
-  height: 459px;
+  width: 70%;
   padding: 40px;
   border: 1px solid rgb(133, 133, 133);
-  border-radius: 32px;
+  border-radius: 80px;
   flex-shrink: 0;
 }
 
@@ -867,14 +813,16 @@ hr {
   max-height: 359px;
   font-size: 36px;
   color: #6664dc;
+  padding: 20px;
 }
 
 .tabbox p {
   max-width: 1016px;
   max-height: 359px;
-  font-size: 2.63vh;
+  font-size: 2vh;
   line-height: 1.4;
   color: rgba(47, 53, 63, 0.5);
   font-family: sans-serif;
   margin-top: 3.0rem;
+  padding: 20px;
 }
