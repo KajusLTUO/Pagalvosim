@@ -80,6 +80,12 @@ nav a {
   transition: opacity 0.3s ease;
   margin-right: 30px;
 }
+.active{
+  border: 0.063rem solid purple;
+  padding: 0.313rem 1rem;
+  border-radius: 0.625rem;
+  color: purple;
+}
 
 .vertical-line {
   border: 1px solid gainsboro;

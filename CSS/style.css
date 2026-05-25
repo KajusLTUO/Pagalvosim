@@ -13,20 +13,20 @@ body {
 }
 
 .heading {
-  max-width: 1920px;
-  padding: 100px 126.238px;
+  max-width: 120rem;
+  padding: 6.25rem 7.89rem;
 }
 
 
 /*Section Goals */
 
 .goals-section {
-   padding: 80px 50px 40px;
+   padding: 5rem 3.125rem 2.5rem;
    background-color: #f8f8f8;
 }
 
 .section-title {
-   font-size: 42px;
+   font-size: 2.625rem;
    color: #1a1a1a;
    font-weight: normal;
    font-family: serif;
@@ -39,7 +39,7 @@ body {
 }
 
 .section-title {
-   font-size: 42px;
+   font-size: 2.625rem;
    color: #333;
    font-weight: normal;
    font-family: serif;
@@ -53,10 +53,10 @@ body {
 }
  
 .goals-section {
-    padding: 80px 10%;
+    padding: 5rem 10%;
     font-size: 2.5rem;
     font-weight: 400;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.031rem;
     font-family:'Neue Machina', sans-serif;
     background-color: #fff;
 }
@@ -64,9 +64,9 @@ body {
 .section-title {
     font-family:'Neue Machina', sans-serif;
     font-size: 2.5rem;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     font-weight: 400;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.031rem;
     color: #1a1a1a;
 }
  
@@ -78,22 +78,22 @@ body {
 }
  
 .card {
-    border-radius: 40px;
+    border-radius: 2.5rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    min-height: 250px;
-    border: 1px solid #e0e0e0;
-    margin: -0.5px;
+    padding: 1.875rem;
+    min-height: 15.625rem;
+    border: 0.063rem solid #e0e0e0;
+    margin: -0.031rem;
     justify-content: space-between;
 }
  
 .text-card {
-    border: 1px solid #949494;
+    border: 0.063rem solid #949494;
     background: #fff;
-    margin: -0.5px;
-    border-radius: 60px;
+    margin: -0.031rem;
+    border-radius: 3.75rem;
     z-index: 1;
 }
  
@@ -106,7 +106,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 40px;
+    border-radius: 2.5rem;
 }
  
 .number {
@@ -116,20 +116,20 @@ body {
 }
  
 h3 {
-    margin: 10px 0;
-    font-size: 27px;
+    margin: 0.625rem 0;
+    font-size: 1.688rem;
 }
  
 p {
     color: #666;
     line-height: 1.5;
-    font-size: 26px;
+    font-size: 1.625rem;
 }
  
 .img-2 {
   grid-area: 2 / 3 / 4 / 1;
   width: 75%;
-  border-radius: 60px;
+  border-radius: 3.75rem;
 
 }
 
@@ -140,7 +140,7 @@ p {
   grid-area: 2 / 2 / 4 / 3;
   width: 150%;
   margin-left: 49.7%;
-  border-radius: 60px;
+  border-radius: 3.75rem;
    
 }
 
@@ -162,7 +162,7 @@ ul li {
 }
 ul li div.scroll-card {
    background-color: #ff7979;
-   border-radius: 9px;
+   border-radius: 0.563rem;
    height: 7vw;
    width: 25vw;
 }
@@ -181,7 +181,7 @@ ul::-webkit-scrollbar {
   transition: 0.3s;
 }
 .work-section {
-  padding: 80px 10%;
+  padding: 5rem 10%;
   background-color: white;
   font-family: 'Neue Machina', sans-serif;
 }
@@ -189,15 +189,15 @@ ul::-webkit-scrollbar {
 .work-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 .work-card {
-  border: 1px solid #949494;
-  margin: -0.5px;
-  border-radius: 40px;
+  border: 0.063rem solid #949494;
+  margin: -0.031rem;
+  border-radius: 2.5rem;
   z-index: 1;
-  padding: 30px;
-  min-height: 100px;
+  padding: 1.875rem;
+  min-height: 6.25rem;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -205,7 +205,7 @@ ul::-webkit-scrollbar {
   cursor: pointer;
 }
 .empty-space {
-  padding: 30px;
+  padding: 1.875rem;
   display: flex;
   align-items: center;
 }
@@ -222,7 +222,7 @@ ul::-webkit-scrollbar {
 
 .work-card h3 {
   font-size: 1.5rem;
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
   font-weight: 400;
 }
  
@@ -233,21 +233,21 @@ ul::-webkit-scrollbar {
 }
  
 .learn-more-circle {
-  width: 180px;
-  height: 180px;
-  border: 1px solid #000000;
+  width: 11.25rem;
+  height: 11.25rem;
+  border: 0.063rem solid #000000;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
  
 .learn-more-circle span {
   font-size: 1rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem;
   line-height: 1.2;
 }
  
@@ -264,20 +264,20 @@ ul::-webkit-scrollbar {
 .work-card.purple-card{
     background-color: #766dff;
     border: none;
-    margin: 20px;
-    margin-bottom: -40px;
-    padding-bottom: 60px;
-    box-shadow: 0 10px 30px rgba(118, 109, 255, 0.3);
+    margin: 1.25rem;
+    margin-bottom: -2.5rem;
+    padding-bottom: 3.75rem;
+    box-shadow: 0 0.625rem 1.875rem rgba(118, 109, 255, 0.3);
     z-index: 2;
 }
 
 .work-card.purple-upper {
     background-color: #766dff;
     border: none;
-    margin: 20px;
-    margin-top: -40px;
-    padding-bottom: 60px;
-    box-shadow: 0 10px 30px rgba(118, 109, 255, 0.3);
+    margin: 1.25rem;
+    margin-top: -2.5rem;
+    padding-bottom: 3.75rem;
+    box-shadow: 0 0.625rem 1.875rem rgba(118, 109, 255, 0.3);
     z-index: 2;
 }
 
@@ -291,7 +291,7 @@ ul::-webkit-scrollbar {
 .industries-section {
  
   margin: 0 auto;
-  padding: 80px 10%;
+  padding: 5rem 10%;
   background-color: white;
 }
 .industries {
@@ -299,12 +299,12 @@ ul::-webkit-scrollbar {
 }
 .section-title {
   color: var(--text-dark);
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
  
 .grid-container {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   justify-content: space-between;
 }
  
@@ -317,43 +317,43 @@ ul::-webkit-scrollbar {
 }
  
 .icon-wrapper {
-  height: 80px;
-  margin-bottom: 30px;
+  height: 5rem;
+  margin-bottom: 1.875rem;
   display: flex;
   align-items: flex-end;
 }
  
 .icon-wrapper img {
-  width: 60px;
+  width: 3.75rem;
   height: auto;
 }
  
 .card-title {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
   color: var(--text-dark);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
  
 .divider {
   border: none;
   border-top: 1px solid black;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   width: 100%;
 }
  
 .card-text {
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.6;
   color: var(--text-gray);
-  max-width: 506px;
+  max-width: 31.625rem;
 }
 .main-footer {
   background-color: white;
-  padding: 80px 4%;
+  padding: 5rem 4%;
   font-family: 'Neue Machina', sans-serif;
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
+  border-top: 0.063rem solid #000000;
+  border-bottom: 0.063rem solid #000000;
   width: 80%;
   margin: auto;
 }
@@ -361,13 +361,13 @@ ul::-webkit-scrollbar {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
  
 .footer-col h4 {
   font-size: 1.2rem;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   color: #333;
 }
  
@@ -375,7 +375,7 @@ ul::-webkit-scrollbar {
 .footer-logo {
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
  
 .footer-email {
@@ -383,22 +383,22 @@ ul::-webkit-scrollbar {
   font-size: 1.1rem;
   color: #4a3aff;
   text-decoration: underline;
-  margin-bottom: 30px;
-  padding-top: 55px;
-  padding-bottom: 20px;
+  margin-bottom: 1.875rem;
+  padding-top: 3.438rem;
+  padding-bottom: 1.25rem;
 }
  
 .social-icons {
   display: flex;
-  gap: 15px;
-  margin-bottom: 35px;
+  gap: 0.938rem;
+  margin-bottom: 2.188rem;
 }
  
 .icon-box {
-  width: 50px;
-  height: 50px;
-  border: 1px solid #ddd;
-  border-radius: 12px;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.063rem solid #ddd;
+  border-radius: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -408,12 +408,12 @@ ul::-webkit-scrollbar {
  
 /* Office & Services Text */
 .office-location {
-  margin-bottom: 25px;
+  margin-bottom: 1.563rem;
 }
  
 .office-location .city {
   color: #4a3aff;
-  margin-bottom: 5px;
+  margin-bottom: 0.313rem;
 }
  
 .office-location .phone,
@@ -421,7 +421,7 @@ ul::-webkit-scrollbar {
 .footer-services li {
   color: #888;
   font-size: 0.95rem;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
  
 .footer-services {
@@ -429,7 +429,7 @@ ul::-webkit-scrollbar {
   padding: 0;
   font-family: sans-serif;
   color: #4a3aff;
-  line-height: 40px;
+  line-height: 2.5rem;
   display: block;
 }
 
@@ -439,15 +439,15 @@ ul::-webkit-scrollbar {
  
 /* Footer Bottom Bar */
 .footer-bottom {
-  padding-top: 30px;
+  padding-top: 1.875rem;
   display: flex;
   font-size: 0.8rem;
   color: #aaa;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   justify-content: space-between;
-  padding-left: 200px;
-  padding-right: 200px;
-  gap: 350px;
+  padding-left: 12.5rem;
+  padding-right: 12.5rem;
+  gap: 21.875rem;
   justify-content: center;
 }
 .city{
@@ -457,22 +457,22 @@ ul::-webkit-scrollbar {
 .btn-contact {
    background-color: #3f37c9;
    color: white;
-   padding: 15px 40px;
+   padding: 0.938rem 2.5rem;
    text-decoration: none;
-   border-radius: 10px;
-   font-size: 20px;
+   border-radius: 0.625rem;
+   font-size: 1.25rem;
    font-family: 'Neue Machina';
-   line-height: 85px;
+   line-height: 5.313rem;
    font-weight: 100;
 }
 
 .technologies-section {
-  padding: 80px 10%;
+  padding: 5rem 10%;
 }
 .used_technologies {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: black;
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 
 .used_technologies_p {
@@ -492,12 +492,12 @@ ul::-webkit-scrollbar {
 }
 
 .tech-dot {
-   width: 15px;
-   height: 15px;  
-   border-radius: 20px;
+   width: 0.938rem;
+   height: 0.938rem;  
+   border-radius: 1.5rem;
    background-color: rgb(151, 151, 151);
    border: none;
-   margin-top: 2px;
+   margin-top: 0.125rem;
 }
 
 .tech-dot.active {
@@ -506,66 +506,66 @@ ul::-webkit-scrollbar {
 
 .tech-slider {
   display: flex;
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
 
 }
 
 hr {
   width: 110%;
-  height: 2px;
+  height: 0.125rem;
   background-color: gainsboro;
   border: none;
-  margin-top: 8px;
-  margin-left: 25px;
+  margin-top: 0.5rem;
+  margin-left: 1.563rem;
 }
 
 .dot_1 {
   position: absolute;
-  left: 170px;
+  left: 10.625rem;
 }
 .dot_2 {
   position: absolute;
-  left: 310px;
+  left: 19.375rem;
 }
 .dot_3 {
   position: absolute;
-  left: 470px;
+  left: 29.375rem;
 }
 .dot_4 {
   position: absolute;
-  left: 620px;
+  left: 38.75rem;
 }
 .dot_5 {
   position: absolute;
-  left: 775px;
+  left: 48.438rem;
 }
 .dot_6 {
   position: absolute;
-  left: 920px;
+  left: 57.5rem;
 }
 .dot_7 {
   position: absolute;
-  left: 1075px;
+  left: 67.188rem;
 }
 .dot_8 {
   position: absolute;
-  left: 1235px;
+  left: 77.188rem;
 }
 
 
 .contact-section {
-  padding: 80px 10%;
+  padding: 5rem 10%;
   background-color: white;
 }
 
 .contact-container {
   background-color: #5c51ff;
-  border-radius: 40px;
-  padding: 80px;
+  border-radius: 2.5rem;
+  padding: 5rem;
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 3.75rem;
   font-family: 'Neue Machina', sans-serif;
 }
 
@@ -584,13 +584,13 @@ hr {
 
 .contact-text-content {
   flex: 1;
-  max-width: 500px;
+  max-width: 31.25rem;
 }
 
 .contact-text-content p {
   font-size: 1rem;
   opacity: 0.9;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -602,11 +602,11 @@ hr {
 
 .download-brief {
   display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  padding: 12px 25px;
-  border-radius: 10px;
+  border: 0.063rem solid rgba(255, 255, 255, 0.4);
+  padding: 0.75rem 1.563rem;
+  border-radius: 0.625rem;
   text-decoration: none !important;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   font-size: 0.9rem;
 }
 
@@ -614,12 +614,12 @@ hr {
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .form-row {
   display: flex;
-  gap: 50px;
+  gap: 3.125rem;
 }
 
 .form-group {
@@ -631,8 +631,8 @@ hr {
   width: 100%;
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-  padding: 15px 0;
+  border-bottom: 0.063rem solid rgba(255, 255, 255, 0.4);
+  padding: 0.938rem 0;
   color: white;
   font-size: 1.7rem;
   outline: none;
@@ -649,7 +649,7 @@ hr {
 .upload-group .plus-icon {
   position: absolute;
   right: 0;
-  bottom: 15px;
+  bottom: 0.938rem;
   font-size: 1.5rem;
   opacity: 0.7;
   cursor: pointer;
@@ -659,16 +659,16 @@ hr {
   background-color: white;
   color: #5c51ff;
   border: none;
-  padding: 15px 40px;
-  border-radius: 10px;
+  padding: 0.938rem 2.5rem;
+  border-radius: 0.625rem;
   font-weight: bold;
   font-size: 1rem;
   width: fit-content;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 0.625rem;
+  margin-top: 1.25rem;
 }
 
 .tech-info {
@@ -688,11 +688,11 @@ hr {
 
 .technology.active img {
   display: block;
-  width: 100px;
+  width: 6.25rem;
 }
 
 #techDescription {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .technology.active p {
@@ -705,27 +705,27 @@ hr {
 
 .choosemain {
   width: 100%;
-  max-width: 1920px;
+  max-width: 120rem;
   margin: 0 auto;
-  padding: 80px 10%;
+  padding: 5rem 10%;
 }
 
 /* VIRŠUS */
 
 .top {
-  margin-bottom: 72px;
+  margin-bottom: 4.5rem;
 }
 
 .top h2 {
-  font-size: 48px;
-  max-width: 458px;
-  height: 58px;
-  margin-bottom: 70px;
+  font-size: 3rem;
+  max-width: 28.625rem;
+  height: 3.625rem;
+  margin-bottom: 4.375rem;
 }
 
 .top p {
-  max-width: 726px;
-  height: 108px;
+  max-width: 45.375rem;
+  height: 6.75rem;
   font-size: 1.66vh;
   color: rgba(47, 53, 63, 0.5);
   font-family: sans-serif;
@@ -735,18 +735,18 @@ hr {
 .content {
   display: flex;
   align-items: flex-start;
-  gap: 170px;
+  gap: 10.625rem;
 }
 
 /* KAIRĖ DĖŽUTĖ */
 .choosemenu {
-  width: 305px;
-  height: 502.5px;
+  width: 19.063rem;
+  height: 31.406rem;
   display: flex;
   flex-direction: column;
   gap: 100px;
   position: relative;
-  padding-left: 42px;
+  padding-left: 2.625rem;
 }
 
 /* KAIRĖS DĖŽUTĖS LINIJA */
@@ -755,7 +755,7 @@ hr {
   position: absolute;
   left: 0;
   top: 0;
-  width: 1px;
+  width: 0.063rem;
   height: 100%;
   background: rgba(47, 53, 63, 0.14);
 }
@@ -766,10 +766,10 @@ hr {
   position: absolute;
   left: 0;
   top: 0;
-  width: 2px;
+  width: 0.125rem;
   height: 24px;
   background: #6664dc;
-  border-radius: 2px;
+  border-radius: 0.125rem;
 }
 
 /* MYGTUKAI KAIRĖJE */
@@ -792,51 +792,51 @@ hr {
 /* DEŠINĖ DEŽUTĖ */
 .tabbox {
   width: 70%;
-  padding: 40px;
+  padding: 2.5rem;
   border: 1px solid rgb(133, 133, 133);
-  border-radius: 80px;
+  border-radius: 5rem;
   flex-shrink: 0;
 }
 
 .tabbox h3 {
-  max-width: 1016px;
-  max-height: 359px;
-  font-size: 36px;
+  max-width: 63.5rem;
+  max-height: 22.438rem;
+  font-size: 2.25rem;
   color: #6664dc;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .tabbox p {
-  max-width: 1016px;
-  max-height: 359px;
+  max-width: 63.5rem;
+  max-height: 22.438rem;
   font-size: 2vh;
   line-height: 1.4;
   color: rgba(47, 53, 63, 0.5);
   font-family: sans-serif;
   margin-top: 3.0rem;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 /* Navigation */
 
 .hero {
   width: 100%;
-  height: 975px;
+  height: 60.938rem;
   background:
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url("../img/Img (2).png") center center / cover no-repeat;
   color: #fff;
   position: relative;
   font-family: "Inter", sans-serif;
-  padding: 0 70px;
+  padding: 0 4.375rem;
   box-sizing: border-box;
 }
 
 nav {
-  height: 100px;
+  height: 6.25rem;
   display: flex;
   align-items: center;
-  gap: 42px;
+  gap: 2.625rem;
   position: relative;
 }
 
@@ -846,14 +846,14 @@ nav::after {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 1px;
+  height: 0.063rem;
   background: gainsboro;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   margin-right: auto;
 }
 
@@ -864,7 +864,7 @@ nav::after {
 }
 
 .logo span {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
@@ -873,24 +873,24 @@ nav::after {
 nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   transition: opacity 0.3s ease;
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 
 .vertical-line {
-  border: 1px solid gainsboro;
+  border: 0.063rem solid gainsboro;
   height: 100%;
 }
 
 .blue-line {
   position: absolute;
-  top: 30px;
+  top: 1.875rem;
   width: 97%;
-  height: 40px;
+  height: 2.5rem;
   background-color: #2421b7;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 nav a:hover {
@@ -901,7 +901,7 @@ nav a:hover {
   background: transparent;
   border: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 0.875rem;
   cursor: pointer;
   padding: 0;
 }
@@ -910,11 +910,11 @@ nav a:hover {
   background: #2e2bd0;
   border: none;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 12px 28px;
-  border-radius: 4px;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.25rem;
   cursor: pointer;
   letter-spacing: 0.03em;
   transition: background 0.3s ease;
@@ -926,8 +926,8 @@ nav a:hover {
 
 .hero-content {
   position: absolute;
-  left: 170px;
-  top: 400px;
+  left: 10.625rem;
+  top: 25rem;
 }
 
 .hero-content h2 {
@@ -938,7 +938,7 @@ nav a:hover {
 
 .hero h2 {
   margin: 0;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 1.05;
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -947,22 +947,22 @@ nav a:hover {
 
 .hero h2 .highlight {
   width: 60%;
-  padding: 0 8px 4px;
+  padding: 0 0.5rem 0.25rem;
   display: inline;
   
 }
 
 .estimate-project-circle {
-  width: 280px;
-  height: 280px;
-  border: 1px solid rgba(255, 255, 255, 0.9);
+  width: 17.5rem;
+  height: 17.5rem;
+  border: 0.063rem solid rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   cursor: pointer;
-  margin-top: 80px;
+  margin-top: 5rem;
   transition: all 0.3s ease;
 }
 
@@ -971,7 +971,7 @@ nav a:hover {
 }
 
 .estimate-project-circle span {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.2;
   text-transform: uppercase;
