@@ -976,3 +976,118 @@ nav a:hover {
   line-height: 1.2;
   text-transform: uppercase;
 }
+@media (max-width: 1080px) {
+ 
+  .goals-section {
+    padding: 60px 5%;
+    background-color: #fff;
+  }
+ 
+  .section-title {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+  }
+  .goals-grid {
+    grid-template-columns: 1fr !important;
+    grid-auto-rows: auto !important;
+    gap: 0;
+  }
+  .card, .image-card, .img-1, .img-2, .img-3, .card-1, .card-2, .card-3, .card-4 {
+    grid-column: 1 / -1 !important;
+    grid-row: auto !important;
+  }
+  .card {
+    min-height: 250px;
+    padding: 30px;
+    margin: -0.5px 0;
+    border-radius: 40px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .image-card {
+    height: 340px;
+    padding: 0 !important;
+    border: none !important;
+    overflow: hidden;
+  }
+ 
+  .image-card img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 40px;
+    display: block;
+  }
+  .card-3, .card-1, .card-2, .card-4{
+    width: 100%;
+    height: 30vh;
+  }
+  .img-2, .img-3, .img-1{
+    width: 100%;
+    height: 30vh;
+  }
+}
+@media (max-width: 1080px) {
+ 
+  .work-section {
+    padding: 60px 5%;
+  }
+ 
+  .section-title {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  .work-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+  .empty-space {
+    margin-bottom: 30px;
+  }
+ 
+  .empty-space p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  .work-card {
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: auto;
+  }
+  .purple-card {
+    background-color: #6664dc !important;
+    border: none !important;
+  }
+ 
+  .purple-card h3 {
+    color: #fff !important;
+  }
+ 
+  .purple-card span {
+    color: white !important;
+  }
+  .work-card:last-child {
+    margin-bottom: 0;
+  }
+  .work-card h3 {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+ 
+  .work-card span {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .learn-more-circle {
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;
+  }
+}
