@@ -156,14 +156,15 @@ nav a:hover {
 }
 
 .stats-wrapper {
-
   width: 100%;
   max-width: 700px;
   margin-top: 50px;
   margin-left: 10%;
   display: grid;
   grid-template-columns: 330px 330px;
+  gap: 0;
   font-family: 'Neue Machina', sans-serif;
+  overflow: visible;
 }
 
 .stat-box {
@@ -174,7 +175,47 @@ nav a:hover {
   padding: 30px 40px;
   text-align: left;
   border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.25s ease, border 0.25s ease, transform 0.25s ease;
+}
 
+.stat-box:nth-child(2),
+.stat-box:nth-child(4) {
+  border-left: none;
+}
+
+.stat-box:nth-child(3),
+.stat-box:nth-child(4) {
+  border-top: none;
+}
+
+.stat-box.stat-active:nth-child(1) {
+  transform: translate(-14px, -14px);
+}
+
+.stat-box.stat-active:nth-child(2) {
+  transform: translate(14px, -14px);
+}
+
+.stat-box.stat-active:nth-child(3) {
+  transform: translate(-14px, 14px);
+}
+
+.stat-box.stat-active:nth-child(4) {
+  transform: translate(14px, 14px);
+}
+
+.stat-box.stat-active {
+  z-index: 2;
+  background: linear-gradient(135deg, #766dff 0%, #5755f7 100%);
+  border: none;
+  box-shadow: 0 8px 24px rgba(118, 109, 255, 0.25);
+}
+
+.stat-box.stat-active .stat-number,
+.stat-box.stat-active .stat-text {
+  color: #ffffff;
 }
 
 .stat-number {
