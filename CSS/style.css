@@ -44,8 +44,6 @@ main {
 .goals-section {
   width: 100vw;
   max-width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
   padding: 210px 0 100px;
   background-color: #fff;
   font-family: 'Neue Machina', sans-serif;
@@ -235,6 +233,9 @@ ul::-webkit-scrollbar {
   transform: scale(1.2);
   transition: 0.3s;
 }
+
+/* Work section  */
+
 .work-section {
   width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -398,8 +399,6 @@ ul::-webkit-scrollbar {
  
 .industries-section {
   width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
   padding: 190px 7.8125vw 80px;
   min-height: 778px;
   background-color: #fff;
@@ -506,8 +505,6 @@ ul::-webkit-scrollbar {
 }
 .main-footer {
   width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
   background-color: #fff;
   padding: 0 max(30px, calc((100vw - 1860px) / 2));
   font-family: 'Neue Machina', sans-serif;
@@ -669,8 +666,6 @@ ul::-webkit-scrollbar {
 /* Footer Bottom Bar */
 .footer-bottom {
   width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
   padding: 51px max(30px, calc((100vw - 1860px) / 2)) 19px;
   display: flex;
   font-size: 16px;
@@ -720,8 +715,6 @@ ul::-webkit-scrollbar {
 
 .technologies-section {
   width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
   padding: 270px 7.8125vw 80px;
   min-height: 800px;
   background-color: #fff;
@@ -750,7 +743,6 @@ ul::-webkit-scrollbar {
   font-size: 60px;
   color: #2f353f;
   font-weight: 400;
-  letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
 }
@@ -832,8 +824,8 @@ ul::-webkit-scrollbar {
   grid-column: 1;
   justify-self: start;
   position: relative;
-  width: 1620px;
-  max-width: 100%;
+  max-width: 1620px;
+  width: 100%;
   height: 238px;
   margin: 0;
   padding: 0;
@@ -886,8 +878,6 @@ hr {
 
 .contact-section {
   width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
   padding: 160px max(30px, calc((100vw - 1860px) / 2)) 80px;
   background-color: #fff;
   box-sizing: border-box;
@@ -1185,14 +1175,10 @@ hr {
 
 .technology.active img {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   margin-top: 30px;
-  padding: 10px;
-  border: 1.5px solid #2e2bd0;
-  border-radius: 20px;
   box-sizing: border-box;
-  object-fit: contain;
 }
 /* WHY CHOOSE US CSS */
 
@@ -1201,8 +1187,6 @@ hr {
 .choosemain {
   width: 100vw;
   max-width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
   padding: 110px 7.8125vw 80px;
   min-height: 999px;
   background-color: #fff;
@@ -1217,7 +1201,7 @@ hr {
 
 .top h2 {
   font-size: 60px;
-  max-width: 458px;
+  max-width: 478px;
   height: auto;
   margin-bottom: 98px;
   color: #2f353f;
@@ -1336,8 +1320,6 @@ hr {
   max-width: 100vw;
   height: 975px;
   min-height: 700px;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
   background: none;
   color: #fff;
   position: relative;
@@ -1352,8 +1334,7 @@ hr {
   position: absolute;
   inset: -20px;
   background: url("../img/Img (2).png") center center / cover no-repeat;
-  filter: blur(6px);
-  transform: scale(1.06);
+  transform: scale(1);
   z-index: 0;
 }
 
@@ -1402,7 +1383,7 @@ hr {
 
 .hero .logo {
   position: absolute;
-  top: 32px;
+  top: 30px;
   left: 1.5625vw;
   margin-right: 0;
 }
@@ -1417,7 +1398,7 @@ hr {
 
 .hero nav a {
   position: absolute;
-  top: 55px;
+  top: 45px;
   text-decoration: none;
   color: #fff;
   font-size: clamp(16px, 1.25vw, 24px);
@@ -1445,8 +1426,8 @@ hr {
 
 .hero .language-btn {
   position: absolute;
-  top: 53px;
-  left: 77.03125vw;
+  top: 42px;
+  left: 78.7vw;
   background: none;
   border: none;
   color: #fff;
@@ -1465,7 +1446,7 @@ hr {
 
 .hero .contacts {
   position: absolute;
-  top: 35px;
+  top: 28px;
   right: 1.5625vw;
   width: 13.229vw;
   max-width: 254px;
@@ -1500,7 +1481,7 @@ hr {
 .hero-content {
   position: absolute;
   left: 7.8125vw;
-  top: 442px;
+  top: 408px;
   width: 46.563vw;
   max-width: 894px;
   height: 130px;
@@ -1510,11 +1491,11 @@ hr {
   position: relative;
   margin: 0;
   max-width: 892px;
-  font-size: clamp(28px, 2.604vw, 50px);
+  font-size: clamp(28px, 2.6vw, 50px);
   line-height: 65px;
   font-weight: 800;
   color: #fff;
-  letter-spacing: 0;
+  letter-spacing: 1.95px;
   z-index: 1;
 }
 
@@ -1531,7 +1512,7 @@ hr {
   content: "";
   position: absolute;
   left: 0;
-  top: 0;
+  top: 35px;
   width: 876px;
   max-width: 100%;
   height: 65px;
@@ -1541,8 +1522,8 @@ hr {
 
 .hero .estimate-project-circle {
   position: absolute;
-  top: 672px;
-  left: 7.8125vw;
+  top: 650px;
+  left: 8.1vw;
   width: 14.583vw;
   max-width: 280px;
   height: 14.583vw;
