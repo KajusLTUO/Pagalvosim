@@ -505,6 +505,9 @@ ul::-webkit-scrollbar {
   font-family: 'Neue Machina', sans-serif;
   letter-spacing: 0;
 }
+
+/* Footer */
+
 .main-footer {
   width: 100vw;
   background-color: #fff;
@@ -664,8 +667,6 @@ ul::-webkit-scrollbar {
 .main-footer .footer-services li + li {
   margin-top: 30px;
 }
- 
-/* Footer Bottom Bar — Figma: 1860px row, 51px/19px vertical, #2f343f80 16px Gilroy */
 
 .footer-bottom {
   position: relative;
@@ -1105,8 +1106,10 @@ hr {
 }
 
 .submit-btn .arrow {
+  text-decoration: underline;
   font-size: 24px;
-  line-height: 1;
+  margin: 0 0 9.5px 5px;
+  text-underline-offset: 3px;
 }
 
 .tech-info {
