@@ -430,7 +430,10 @@ ul::-webkit-scrollbar {
   font-family: sans-serif;
   color: #4a3aff;
   line-height: 2.5rem;
-  display: block;
+  display: grid;
+  row-gap: 0.75rem;
+  column-gap: 4rem;
+  grid-auto-flow: row;
 }
 
 .footer-services li{
@@ -976,6 +979,9 @@ nav a:hover {
   line-height: 1.2;
   text-transform: uppercase;
 }
+.logo-mobile{
+  display: none;
+}
 @media (max-width: 1080px) {
  
   .goals-section {
@@ -1089,5 +1095,90 @@ nav a:hover {
     width: 120px;
     height: 120px;
     margin-top: 40px;
+  }
+}
+@media (max-width: 1080px) {
+  .main-footer {
+    width: 100%;
+    padding: 2.5rem 1.25rem;
+    border-left: none;
+    border-right: none;
+  }
+ 
+  .footer-bottom {
+    width: 100%;
+    padding: 1.25rem 1.25rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3rem 2rem;
+  }
+ 
+  .footer-container {
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+  }
+ 
+  .footer-col1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+ 
+  .footer-col1 h4 {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+ 
+  .footer-col2 {
+    min-width: unset;
+    width: 100%;
+  }
+ 
+  .footer-services {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0rem;
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+  }
+    .contact-col {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+ 
+  .footer-email {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: none;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .logo-mobile{
+    display: block;
+    height: 5rem;
+    width: auto;
+    margin-bottom: 2.5rem;
+  }
+  .logo-desktop{
+    display: none;
+  }
+
+  .btn-contact{
+    padding: 0.5rem 1.86rem;
+    font-size: 1rem;
+    width: fit-content;
+  }
+  .footer-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .footer-email{
+    padding-top: 0;
+    border-top: none;
+    margin-bottom: -2rem;
   }
 }
